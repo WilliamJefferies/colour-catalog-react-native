@@ -6,7 +6,6 @@ import ColourForm from "./ColourForm";
 import { useColours } from "../hooks";
 
 export default function ColourList({ navigation }) {
-  const [backgroundColour, setBackgroundColour] = useState("blue");
   const { colours, addColour } = useColours();
   return (
     <>
